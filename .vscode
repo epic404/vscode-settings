@@ -21,4 +21,11 @@
     "editor.parameterHints.enabled": false,
     "editor.acceptSuggestionOnCommitCharacter": false,
     "editor.inlineSuggest.enabled": false,
+    "editor.formatOnPaste": true,
+    "editor.formatOnSave": true,
+    "editor.cursorStyle": "block",
+    "editor.cursorBlinking": "smooth",
+    "explorer.sortOrder": "type",
+    "workbench.editor.highlightModifiedTabs": true,
+    "files.trimFinalNewlines": true
 }
