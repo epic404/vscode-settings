@@ -22,5 +22,5 @@ goAirkit() {
 
 buildAirkit() {
 	cd ~/repo/airkit
-	service-tool --verbose && service-tool --sample-data-only -U bkent
+	repo sync && service-tool --verbose && service-tool --sample-data-only -U bkent
 }
