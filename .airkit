@@ -5,10 +5,6 @@ export JAVA_HOME=$(/usr/libexec/java_home -v 17)
 GPG_TTY=$(tty)
 export GPG_TTY
 
-alias ls="ls -GFh"
-alias clean="git clean -fd"
-alias prune="git branch -r | awk '{print $1}' | egrep -v -f /dev/fd/0 <(git branch -vv | grep origin) | awk '{print $1}' | xargs git branch -d"
-
 startAirkit() {
 	cd ~/repo/airkit/node/web-builder
 	nvm use 14.17.5
