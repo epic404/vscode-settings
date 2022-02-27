@@ -1,0 +1,17 @@
+goCashUi() {
+  cd ~/dev/cashlens-ui
+}
+
+startCashUi() {
+  cd ~/dev/cashlens-ui
+  npm run dev
+}
+
+goCashApi() {
+  cd ~/dev/cashlens-api
+}
+
+startCashApi() {
+  cd ~/dev/cashlens-api
+  # however to build and run golang apps...
+}
