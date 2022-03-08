@@ -27,5 +27,7 @@
     "editor.cursorBlinking": "smooth",
     "explorer.sortOrder": "type",
     "workbench.editor.highlightModifiedTabs": true,
-    "files.trimFinalNewlines": true
+    "files.trimFinalNewlines": true,
+    "javascript.preferences.quoteStyle": "single",
+    "typescript.preferences.quoteStyle": "single"
 }
